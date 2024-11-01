@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-gray-50;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+  
+  .prose a {
+    @apply text-blue-600 hover:text-blue-800 no-underline;
+  }
+  
+  .prose h1 {
+    @apply text-3xl font-bold mb-4;
+  }
+  
+  .prose h2 {
+    @apply text-2xl font-semibold mb-3;
+  }
+  
+  .prose h3 {
+    @apply text-xl font-medium mb-2;
+  }
+  
+  .prose p {
+    @apply mb-4;
+  }
+  
+  .prose ul {
+    @apply list-disc list-inside mb-4;
+  }
+  
+  .prose li {
+    @apply mb-1;
+  }
+}
