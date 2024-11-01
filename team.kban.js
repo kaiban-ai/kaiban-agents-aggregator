@@ -88,7 +88,7 @@ const newsSummaryTeam = new Team({
   agents: [contentRetrievalAgent, contentExtractorAgent, editorAgent],
   tasks: [contentRetrievalTask, contentExtractionTask, editingTask],
   inputs: {
-    newsletters: 'https://jster.net/blog, https://javascriptweekly.com/issues, https://tympanus.net/codrops/collective/',
+    newsletters: 'https://jster.net/blog, https://javascriptweekly.com/issues',
     topics: 'React, AI Agents',
     userName: 'Dariel',
   },
