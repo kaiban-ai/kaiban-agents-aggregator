@@ -93,7 +93,7 @@ const newsSummaryTeam = new Team({
     userName: 'Dariel',
   },
   env: {
-    OPENAI_API_KEY: import.meta.env.VITE_OPENAI_API_KEY,
+    OPENAI_API_KEY: import.meta.env.VITE_OPENAI_API_KEY || 'YOUR_OPENAI_API_KEY_HERE',
   },
 });
 
