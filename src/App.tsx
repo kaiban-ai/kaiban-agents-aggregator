@@ -83,7 +83,7 @@ export default function App() {
         </div>
       )}
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="flex gap-8">
+        <div className="flex gap-8 flex-col md:flex-row">
           {/* Main Content Column (60-70%) */}
           <div className="flex-1 space-y-6">
             {/* Newsletter Configuration */}
@@ -168,7 +168,7 @@ export default function App() {
           </div>
 
           {/* Sidebar Column (30-40%) */}
-          <div className="w-[30%] space-y-6">
+          <div className="w-full md:w-[30%] space-y-6">
             {/* API Settings and Tools Row */}
             <div className="space-y-6">
               <ApiSettings />
